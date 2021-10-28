@@ -1,0 +1,81 @@
+input {
+    background-color: white;
+    font-size: 30px;
+    font-family: initial;
+    font-weight: initial;
+    border: none;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+input.input_deeper {
+    background-color: #f1f1f1;
+}
+
+td {
+    border: black 1px solid;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+}
+
+table.puzzle {
+    border: black 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.3);
+}
+
+table.box {
+    border: black 2px solid;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+pre {
+    display: inline;
+    user-select: none;
+    line-height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+span {
+    background-color: white;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 0.1em;
+    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.4);
+    display: inline-left;
+    width: 100px;
+    cursor: pointer;
+}
+
+p {
+    color: #afafaf;
+    font-size: 5px;
+    text-align: center;
+    cursor: default;
+    user-select: none;
+    margin: 0 auto; 
+}
+
+body {
+    background: url("bg.jpg") center center;
+    background-color: #f0f0f2;
+}
+
+div {
+    width: 550px;
+    height: 600px;
+    margin: 30px auto;
+    padding: 2em;
+    background-color: #fdfdff;
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.5);
+}
